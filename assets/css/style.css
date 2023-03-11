@@ -24,14 +24,21 @@ header ul{
 } */
 
 nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top:10px;
     padding-left: 10%;
     padding-right: 10%;
-    /* background-color: blue; */
+    padding-bottom: 10px;
+    background: #1c2c59;
+
 }
+
 
 img{
      width: 250px;
@@ -45,7 +52,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #1c2c59 ;
+    color:#f5f3ec ;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -53,7 +60,8 @@ nav ul li a{
 
 nav ul li a:hover{
     /* color: rgb(122, 44, 44); */
-    opacity: 125%;
+    /* color:#f5f3ec; */
+    /* opacity: 20%; */
 }
 
 nav button{
@@ -130,7 +138,8 @@ nav button:hover{
 #landingpage-menu-description button{
     border: 2px solid #1c2c59;
     padding: 12px 30px;
-    margin: 30px;
+    margin: 0 30px;
+    margin-top: 35px ;
     color: #1c2c59;
     font-size: 15px;
     font-weight: bold;
@@ -140,4 +149,13 @@ nav button:hover{
 #landingpage-menu-description button:hover{
     background-color:#1c2c59;
     color: #f5f3ec;
+    transform: translateY(-3px);
+}
+
+footer{
+
+}
+
+footer ul li{
+    
 }
